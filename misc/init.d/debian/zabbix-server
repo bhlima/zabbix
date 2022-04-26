@@ -6,7 +6,7 @@
 
 NAME=zabbix_server
 DAEMON=/usr/local/sbin/${NAME}
-DESC="Zabbix server daemon"
+DESC="Zabbix1 server daemon"
 PID=/tmp/$NAME.pid
 
 test -f $DAEMON || exit 0
